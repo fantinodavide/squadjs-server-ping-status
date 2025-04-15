@@ -5,7 +5,7 @@ A Discord plugin that displays server ping information from different regions.
 ## Installation
 
 1. Place `server-ping-status.js` in your plugins directory
-2. Add the plugin configuration to your server config file
+2. Add the plugin configuration to your SquadJS config file
 
 ## Configuration
 
@@ -15,6 +15,7 @@ A Discord plugin that displays server ping information from different regions.
   "enabled": true,
   "discordClient": "discord",
   "messageStore": "mysql",
+  "command": "!serverpings",
   "channelID": "YOUR_CHANNEL_ID"
 }
 ```
