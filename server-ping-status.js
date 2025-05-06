@@ -57,7 +57,7 @@ export default class ServerPingStatus extends DiscordBaseMessageUpdater {
 
     async onServerInfoUpdated(data) {
         this.serverInfo = data.raw;
-        this.verbose(1, 'Server information updated', this.serverInfo);
+        // this.verbose(1, 'Server information updated', this.serverInfo);
     }
 
     async generateMessage() {
